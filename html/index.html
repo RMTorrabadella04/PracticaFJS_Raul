@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reglas</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div id="fondoblanco">
+
+        <h1 class="texto">La Guia del Aventurero Espacial</h1>
+
+        <p class="texto">
+            <br>
+            Se desarrollará en un tablero de 42 casillas y 3 dados especiales de nueve lados.
+            <br>
+            Las galaxias se representan por direcciones de 3 dígitos y el jugador comienza en la
+            casilla 1 en la galaxia con dirección 000.
+            <br>
+            El viajero lanza los 3 dados al mismo tiempo para obtener una dirección y el resultado
+            es la dirección de la galaxia.
+            <br>
+            El viajero puede ir avanzando mientras las galaxias sean cercanas. Son cercanas si
+            se encuentran menos o igual a 4 años luz.
+            <br><br>
+            <b>¿Cómo proceder?</b>
+            <br><br>
+            Por ejemplo:
+            <br>
+            Galaxia 000 → 0+0+0=0
+            <br>
+            Galaxia 184 → 1+8+4 = 13 → 1+ 3 = 4
+            <br>
+            Galaxia 231 → 2+3+1=6
+            <br>
+            Las galaxias son cercanas porque calculamos la diferencia absoluta de |0-4|= 4 y
+            avanzas 4 casillas. Me encuentro en la casilla 4
+            <br>
+            La siguiente tirada será:
+            <br>
+            Galaxia 184 → 1+8+4 = 13 → 1+ 3 = 4
+            <br>
+            Galaxia 231 → 2+3+1=6
+            <br>
+            Cuya diferencia absoluta será |4-6|=2. Avanzamos a la casilla 6 y así sucesivamente
+            <br><br>
+            <b>¡¡¡PELIGROS!!!</b>
+            <br><br>
+            - Si un jugador cae en la casilla 31, se encontrará con unos extraterrestres
+            peligrosos haciendo que le retrasen a la casilla 13
+            <br>
+            - Si un jugador cae en la casilla 33, se encontrará un agujero negro y perderá el
+            juego
+            <br><br>
+            <b>FIN del juego</b>
+            <br><br>
+            El juego termina si llega a la casilla 42. Si la sobrepasa, deberá volver a la casilla 1.
+            También terminará si cae en el agujero negro.</p>
+
+            <br>
+            <b>Empezar</b>
+        </p>
+            
+        <a href="aventura.html"><img src="../img/planeta.jpg" alt="Astronauta" id="boton"/></a>
+        
+    </div>
+    
+</body>
+</html>

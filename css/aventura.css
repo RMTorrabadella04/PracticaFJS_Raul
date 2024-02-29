@@ -1,0 +1,72 @@
+/* Letra */
+@font-face {
+    font-family: "espacial";
+    src: url(../fonts/space\ age.ttf);
+}
+
+/* Fondo, letra y margenes */
+*{
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+
+    margin: 0;
+
+    font-family: "Calibri";
+    text-align: center;
+    font-size: large;
+}
+
+/* Div donde esta el texto */
+
+#fondoblanco{
+
+    position: absolute;
+
+    background: rgba(187, 187, 187, 0.804);
+    
+    margin-top: 1%;
+    margin-left: 10%;
+
+    width: 80%;
+    height: 36.5em;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+/* Texto del div */
+#fondoblanco #d1{
+    margin-top: 10%;
+}
+
+#fondoblanco p{
+
+    background: rgba(187, 187, 187, 0);
+    padding-top: 2%;
+}
+
+/* Boton lanzar dados */
+
+#botonlanzardados{
+    margin-top: 1%;
+    margin-bottom: -2%;
+    padding: 0.5%;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: rgba(187, 187, 187, 0.804);
+
+}
+
+/* Agujero Negro (Solo sale si pierdes) y Ganador (Solo sale si ganas) */
+
+#agujeronegro, #ganador{
+    position: absolute;
+    width: 60%;
+    height: 30em;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 8%;
+    margin-bottom: -40%;
+    margin-left: -33%;
+
+}
